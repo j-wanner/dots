@@ -1,10 +1,9 @@
-### Linux(manjaro i3)用 Dotfiles
+### Dotfiles for Linux(manjaro i3)
 
-#### インストールコマンド
 ```
 curl https://{URL}/install.sh | bash
 
-もしくは
+OR
 
 git clone https://github.com/username/dotfiles
 cd dotfiles
