@@ -1,5 +1,4 @@
-# dotfiles_mjr-i3
-Linux(manjaro i3)用 Dotfiles
+### Linux(manjaro i3)用 Dotfiles
 
 #### インストールコマンド
 ```
