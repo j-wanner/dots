@@ -1,7 +1,7 @@
 # dotfiles_mjr-i3
 Linux(manjaro i3)用 Dotfiles
 
-## インストールコマンド
+#### インストールコマンド
 ```
 curl https://{URL}/install.sh | bash
 
