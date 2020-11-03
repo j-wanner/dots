@@ -10,3 +10,15 @@ cd dotfiles
 ./install.sh
 ```
 
+
+
+### install
+
+```
+# /etc/pacman-mirrors.conf
+Method=rank
+OnlyCountry = Japan
+
+pacman-mirrors --fasttrack
+pacman -Syu
+```
