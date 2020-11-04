@@ -1,7 +1,15 @@
 ### Dotfiles for Linux(manjaro i3)
 
 ```
-curl https://{URL}/install.sh | bash
+curl
+  -s 進捗情報非表示
+  -L リダイレクト
+  
+curl -L https://{URL}/install.sh | bash    ※-L 要るかも。GitHubのraw等、シェルファイルのURL
+curl {ドメイン} | sh    ※シェルファイルがある場所の
+bash -c "$(curl -L raw.githubusercontent.com/{URL}/install.sh)"
+
+
 
 OR
 
