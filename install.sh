@@ -21,7 +21,6 @@ echo -e "export LANG=\"ja_JP.UTF-8\"\nexport XMODIFIERS=\"@im=fcitx\"\nexport XM
 echo -e "\nexport GTK_IM_MODULE=fcitx\nexport XMODIFIERS=@im=fcitx\nexport QT_IM_MODULE=fcitx" >> ~/.bashrc
 
 
-
 #for f in .??*
 #do
 #  [[ "$f" == ".git" ]] && continue
