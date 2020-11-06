@@ -11,7 +11,6 @@ echo -e ## Country : Japan\\nServer = http://ftp.tsukuba.wide.ad.jp/Linux/manjar
 #&& sudo pacman -Syu
 
 
-
 #for f in .??*
 #do
 #  [[ "$f" == ".git" ]] && continue
