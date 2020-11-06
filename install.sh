@@ -7,25 +7,19 @@
 
 #=== mirror config
 #==================================
-### check & sort
 #sed -i -e '/^Method.*/d' /etc/pacman-mirrors.conf;sed -i -e '/^OnlyCountry.*/d' /etc/pacman-mirrors.conf
 #echo -e \\nMethod = rank\\nOnlyCountry = Japan >> /etc/pacman-mirrors.conf && pacman-mirrors --fasttrack && pacman -Syyu
-### manual
-#echo -e "## Country : Japan\nServer = http://ftp.tsukuba.wide.ad.jp/Linux/manjaro/stable/\$repo/\$arch\n\n## Country : Japan\nServer = http://ftp.riken.jp/Linux/manjaro/stable/\$repo/\$arch\n\n## Country : Taiwan\nServer = http://free.nchc.org.tw/manjaro/stable/\$repo/\$arch\n\n## Country : Singapore\nServer = http://download.nus.edu.sg/mirror/manjaro/stable/\$repo/\$arch\n\n## Country : Indonesia\nServer = http://kartolo.sby.datautama.net.id/manjaro/stable/\$repo/\$arch\n\n## Country : United_States\nServer = http://mirror.math.princeton.adu/pub/manjaro/stable/\$repo/\$arch\n\n## Country : Germany\nServer = http://mirror.netzspielplatz.de/manjaro/stable/\$repo/\$arch\n" > /etc/pacman.d/mirrorlist && pacman -Syyu
 
 #=== locale
 #==================================
 sed -i -e 's/^.*ja_JP.UTF-8.*$/ja_JP.UTF-8 UTF-8/' /etc/locale.gen;locale-gen
 sed -i -e 's/^.*LANG.*$/LANG=ja_JP.UTF-8/' /etc/locale.conf;source /etc/locale.conf
 
-#=== input/fonts
-#==================================
-pacman -S fcitx fcitx-configtool fcitx-mozc fcitx-qt5 fcitx-gtk3 --noconfirm
-
-#=== other packs
+#=== packs    dbus...?
 #==================================
 pacman -S git --noconfirm
-
+pacman -S fcitx fcitx-configtool fcitx-mozc fcitx-qt5 fcitx-gtk3 otf-ipaexfont --noconfirm
+rm /etc/fonts/conf.d/70-yes-bitmaps.conf && ln -s /etc/fonts/conf.avail/70-no-bitmaps.conf /etc/fonts/conf.d/ && fc-cache -fv
 
 #==================================
 #===== user
@@ -45,6 +39,7 @@ echo -e "\n\nexec --no-startup-id fcitx" >> ~/.i3/config
 #  [[ "$f" == ".git" ]] && continue
 #  [[ "$f" == ".DS_Store" ]] && continue
 #
+#  ln -snfv ~/dotfiles/"$f" ~/
 #  echo "$f"
 #done
 
