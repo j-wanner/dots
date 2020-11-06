@@ -1,5 +1,10 @@
 #!/bin/bash
 
+
+#==================================
+#===== root
+#==================================
+
 #=== mirror config
 #==================================
 ### check & sort
@@ -15,8 +20,16 @@ sed -i -e 's/^.*LANG.*$/LANG=ja_JP.UTF-8/' /etc/locale.conf;source /etc/locale.c
 
 #=== input/fonts
 #==================================
-pacman -S fcitx fcitx-configtool fcitx-mozc fcitx-qt5 fcitx-gtk2 fcitx-gtk3 --noconfirm
+pacman -S fcitx fcitx-configtool fcitx-mozc fcitx-qt5 fcitx-gtk3 --noconfirm
 
+
+#==================================
+#===== user
+#==================================
+exit
+
+#=== x
+#==================================
 echo -e "export LANG=\"ja_JP.UTF-8\"\nexport XMODIFIERS=\"@im=fcitx\"\nexport XMODIFIER=\"@im=fcitx\"\nexport GTK_IM_MODULE=fcitx\nexport QT_IM_MODULE=fcitx\nexport DefaultIMModule=fcitx" > ~/.xprofile
 echo -e "\nexport GTK_IM_MODULE=fcitx\nexport XMODIFIERS=@im=fcitx\nexport QT_IM_MODULE=fcitx" >> ~/.bashrc
 
