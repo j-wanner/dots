@@ -7,7 +7,7 @@
 #echo -e \\nMethod = rank\\nOnlyCountry = Japan >> /etc/pacman-mirrors.conf && sudo pacman-mirrors --fasttrack && sudo pacman -Syu
 ### manual
 rm -f /etc/pacman.d/mirrorlist
-echo -e ## Country : Japan\\nServer = http://ftp.tsukuba.wide.ad.jp/Linux/manjaro/stable/$repo/$arch\\n\\n## Country : Japan\\nServer = http://ftp.riken.jp/Linux/manjaro/stable/$repo/$arch\\n\\n## Country : Taiwan\\nServer = http://free.nchc.org.tw/manjaro/stable/$repo/$arch\\n\\n## Country : Singapore\\nServer = http://download.nus.edu.sg/mirror/manjaro/stable/$repo/$arch\\n\\n## Country : Indonesia\\nServer = http://kartolo.sby.datautama.net.id/manjaro/stable/$repo/$arch\\n\\n## Country : United_States\\nServer = http://mirror.math.princeton.adu/pub/manjaro/stable/$repo/$arch\\n\\n## Country : Germany\\nServer = http://mirror.netzspielplatz.de/manjaro/stable/$repo/$arch\\n > /etc/pacman.d/mirrorlist  && sudo pacman -Syu
+echo -e "## Country : Japan\\nServer = http://ftp.tsukuba.wide.ad.jp/Linux/manjaro/stable/$repo/$arch\\n\\n## Country : Japan\\nServer = http://ftp.riken.jp/Linux/manjaro/stable/$repo/$arch\\n\\n## Country : Taiwan\\nServer = http://free.nchc.org.tw/manjaro/stable/$repo/$arch\\n\\n## Country : Singapore\\nServer = http://download.nus.edu.sg/mirror/manjaro/stable/$repo/$arch\\n\\n## Country : Indonesia\\nServer = http://kartolo.sby.datautama.net.id/manjaro/stable/$repo/$arch\\n\\n## Country : United_States\\nServer = http://mirror.math.princeton.adu/pub/manjaro/stable/$repo/$arch\\n\\n## Country : Germany\\nServer = http://mirror.netzspielplatz.de/manjaro/stable/$repo/$arch\\n" > /etc/pacman.d/mirrorlist  && sudo pacman -Syu
 
 
 
