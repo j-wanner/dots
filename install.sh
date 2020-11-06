@@ -22,6 +22,10 @@ sed -i -e 's/^.*LANG.*$/LANG=ja_JP.UTF-8/' /etc/locale.conf;source /etc/locale.c
 #==================================
 pacman -S fcitx fcitx-configtool fcitx-mozc fcitx-qt5 fcitx-gtk3 --noconfirm
 
+#=== other packs
+#==================================
+pacman -S git --noconfirm
+
 
 #==================================
 #===== user
