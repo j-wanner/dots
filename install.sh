@@ -8,8 +8,17 @@
 ### manual
 #echo -e "## Country : Japan\nServer = http://ftp.tsukuba.wide.ad.jp/Linux/manjaro/stable/\$repo/\$arch\n\n## Country : Japan\nServer = http://ftp.riken.jp/Linux/manjaro/stable/\$repo/\$arch\n\n## Country : Taiwan\nServer = http://free.nchc.org.tw/manjaro/stable/\$repo/\$arch\n\n## Country : Singapore\nServer = http://download.nus.edu.sg/mirror/manjaro/stable/\$repo/\$arch\n\n## Country : Indonesia\nServer = http://kartolo.sby.datautama.net.id/manjaro/stable/\$repo/\$arch\n\n## Country : United_States\nServer = http://mirror.math.princeton.adu/pub/manjaro/stable/\$repo/\$arch\n\n## Country : Germany\nServer = http://mirror.netzspielplatz.de/manjaro/stable/\$repo/\$arch\n" > /etc/pacman.d/mirrorlist && pacman -Syyu
 
-sed -i -e 's/^.*ja_JP.UTF-8.*$/ja_JP.UTF-8 UTF-8/' /etc/locale.gen;locale-gen
-sed -i -e 's/^.*LANG.*$/LANG=ja_JP.UTF-8/' /etc/locale.conf
+#=== locale
+#==================================
+#sed -i -e 's/^.*ja_JP.UTF-8.*$/ja_JP.UTF-8 UTF-8/' /etc/locale.gen;locale-gen
+#sed -i -e 's/^.*LANG.*$/LANG=ja_JP.UTF-8/' /etc/locale.conf;source /etc/locale.conf
+
+#=== input/fonts
+#==================================
+pacman -Sy fcitx fcitx-configtool fcitx-mozc fcitx-qt5 fcitx-gtk3
+
+
+
 
 #for f in .??*
 #do
