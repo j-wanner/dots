@@ -15,7 +15,7 @@
 
 #=== input/fonts
 #==================================
-pacman -Sy fcitx fcitx-configtool fcitx-mozc fcitx-qt5 fcitx-gtk3
+#pacman -Sy fcitx fcitx-configtool fcitx-mozc fcitx-qt5 fcitx-gtk3
 
 echo -e "export LANG=\"ja_JP.UTF-8\"\nexport XMODIFIERS=\"@im=fcitx\"\nexport XMODIFIER=\"@im=fcitx\"\nexport GTK_IM_MODULE=fcitx\nexport QT_IM_MODULE=fcitx\nexport DefaultIMModule=fcitx" > ~/.xprofile
 echo -e "\nexport GTK_IM_MODULE=fcitx\nexport XMODIFIERS=@im=fcitx\nexport QT_IM_MODULE=fcitx" >> ~/.bashrc
