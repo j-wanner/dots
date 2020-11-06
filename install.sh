@@ -22,6 +22,7 @@ echo -e "\nexport GTK_IM_MODULE=fcitx\nexport XMODIFIERS=@im=fcitx\nexport QT_IM
 
 echo -e "\n\nexec --no-startup-id fcitx" >> ~/.i3/config
 
+
 #for f in .??*
 #do
 #  [[ "$f" == ".git" ]] && continue
