@@ -14,7 +14,7 @@ do
   [[ "$f" == ".gitignore" ]] && continue
   #[[ "$f" == ".DS_Store" ]] && continue
 
-#  ln -snfv ~/dotfiles/"$f" ~/
-  echo "$f"
+  ln -sfnv ~/dots/"$f" ~/
+#  echo "$f"
 done
 
