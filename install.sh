@@ -14,6 +14,5 @@ do
   ln -snfv ~/dots/"$f" ~/
 done
 
-
-#ln -snfv ~/dots/dir/.config/fcitx ~/.config/fcitx
+ln -snfv ~/dots/dir/.config/fcitx ~/.config/fcitx
 ln -snfv ~/dots/dir/.config/fontconfig ~/.config/fontconfig
