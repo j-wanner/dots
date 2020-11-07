@@ -7,7 +7,7 @@ cp -r dots/file/fonts .local/share/
 #echo -e "\nexport GTK_IM_MODULE=fcitx\nexport XMODIFIERS=@im=fcitx\nexport QT_IM_MODULE=fcitx" >> ~/.bashrc
 #echo -e "\n\nexec --no-startup-id fcitx" >> ~/.i3/config
 
-
+cd ~/dots;
 for f in .??*
 do
   [[ "$f" == ".git" ]] && continue
