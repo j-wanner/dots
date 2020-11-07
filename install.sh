@@ -1,6 +1,6 @@
 #!/bin/bash
 
-yay -Sya google-chrome google-chrome-beta vivaldi
+yay -Syyua google-chrome google-chrome-beta vivaldi
 
 cd ~; git clone https://github.com/j-wanner/dots.git;
 cp -r dots/files/fonts .local/share/
