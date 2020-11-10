@@ -1,7 +1,5 @@
 #!/bin/bash
 
-yay -Syya google-chrome google-chrome-beta vivaldi --noconfirm
-
 cd ~; git clone https://github.com/j-wanner/dots.git;
 cp -r dots/files/fonts .local/share/
 
@@ -19,3 +17,4 @@ ln -snfv ~/dots/dir/.i3/config ~/.i3/config
 ln -snfv ~/dots/dir/.config/fcitx ~/.config/fcitx
 ln -snfv ~/dots/dir/.config/fontconfig ~/.config/fontconfig
 
+yay -Syya google-chrome google-chrome-beta vivaldi --noconfirm
