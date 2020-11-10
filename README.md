@@ -15,4 +15,6 @@ cd dotfiles
 #### 実行後
 
 - pacman -Syu
-- ブラウザ等入れる
+- vivaldi-snapshot
+- google-chrome-stable
+- google-chrome-beta
