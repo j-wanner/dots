@@ -55,9 +55,9 @@ mode "$mode_system" {
 ################################################################################################
 
 # start a terminal
-bindsym $mod+Return exec terminal
-#set $exec_terminal exec --no-startup-id "urxvtc || { [ $? -eq 2 ] && urxvtd -q -o -f && urxvtc; }"
-#bindsym $mod+Return $exec_terminal
+#bindsym $mod+Return exec terminal
+set $exec_terminal exec --no-startup-id "urxvtc || { [ $? -eq 2 ] && urxvtd -q -o -f && urxvtc; }"
+bindsym $mod+Return $exec_terminal
 
 # start program launcher (dmenu_recency / i3-dmenu-desktop)
 bindsym $mod+d exec --no-startup-id dmenu_recency
