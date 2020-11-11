@@ -19,5 +19,5 @@ ln -snfv ~/dots/dir/.config/fontconfig ~/.config/fontconfig
 
 xrdb -merge ~/.Xresources
 
-exit
+reboot
 #echo '=====command succeeded ====='
