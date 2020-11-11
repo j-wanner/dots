@@ -1,22 +1,33 @@
-!!
-!! rxvt-unicode (urxvt)
-!!
+!!===== rxvt-unicode (urxvt)
+!!============================================
 
 URxvt.geometry:             96x32
+
+!URxvt.scrollBar_thickness:  5
 URxvt.scrollBar_right:      true
 URxvt.scrollBar_floating:   true
 URxvt.scrollstyle:          plain
-URxvt.cursorBlink:          true
+! rxvt / plain / next / xterm
+
+!!=== cursol style
 URxvt.cursorUnderline:      true
+URxvt.cursorBlink:          true
+
+!!=== start inputting -> disappear pointer
 URxvt.pointerBlank:         true
+
+!!=== alertion  sound -> visual bell
 URxvt.visualBell:           true
+
+!!=== baffa
 URxvt.saveLines:            3000
+
+!!=== after becoming out of cursol
 URxvt.fading:               40
 
-!! Font list and Spacing
-URxvt.font:                 xft:Dejavu Sans Mono-9,\
-                            xft:IPAGothic
-URxvt.letterSpace:          -1
+!! Font list and Spacing (xxx,yyy,zzz) (xft:font name-10 / xft:font name:pixelsize=10)
+URxvt.font:                 xft:monospace:pixelsize=11
+!URxvt.letterSpace:          -1
 !URxvt.lineSpace:            0
 
 !! Color Scheme and Opacity - gruvbox-dark https://github.com/morhetz/gruvbox
@@ -44,3 +55,7 @@ URxvt.colorBD:              [90]#d5c4a1
 URxvt.colorUL:              [90]#83a598
 URxvt.scrollColor:          [90]#504945
 !URxvt.troughColor:          [90]#3C3836
+
+!!=== Perl off
+URxvt.perl-ext:
+URxvt.perl-ext-common:
