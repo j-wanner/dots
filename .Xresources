@@ -26,9 +26,9 @@ URxvt.saveLines:            3000
 URxvt.fading:               40
 
 !! Font list and Spacing (xxx,yyy,zzz) (xft:font name-10 / xft:font name:pixelsize=10)
-URxvt.font:                 xft:monospace:pixelsize=11
+URxvt.font:                 xft:monospace:pixelsize=14
+URxvt.lineSpace:            2
 !URxvt.letterSpace:          -1
-!URxvt.lineSpace:            0
 
 !! Color Scheme and Opacity - gruvbox-dark https://github.com/morhetz/gruvbox
 URxvt.depth:                32
@@ -48,8 +48,8 @@ URxvt.color12:              [90]#83a598
 URxvt.color13:              [90]#d3869b
 URxvt.color14:              [90]#8ec07c
 URxvt.color15:              [90]#ebdbb2
-URxvt.foreground:           [90]#ebdbb2
-URxvt.background:           [90]#282828
+URxvt.foreground:           [90]#ffffff
+URxvt.background:           [80]#000000
 URxvt.colorIT:              [90]#8ec07c
 URxvt.colorBD:              [90]#d5c4a1
 URxvt.colorUL:              [90]#83a598
