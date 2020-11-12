@@ -41,13 +41,16 @@ URxvt.color5:               [80]#b16286
 URxvt.color6:               [80]#689d6a
 URxvt.color7:               [80]#a89984
 URxvt.color8:               [80]#928374
-URxvt.color9:               [90]#55cc77
+URxvt.color9:               [90]#66cc88
 URxvt.color10:              [90]#55bbdd
 URxvt.color11:              [80]#4499cc
-URxvt.color12:              [80]#83a598
+URxvt.color12:              [80]#7777cc
 URxvt.color13:              [80]#d3869b
-URxvt.color14:              [90]#aadd88
-URxvt.color15:              [90]#aaccee
+!URxvt.color14:              [90]#aadd88
+!URxvt.color15:              [90]#aaccee
+URxvt.color14:              [90]#dddd66
+URxvt.color15:              [90]#dddd66
+! 9:su user / 10:user / 14:su cd, sl / 15:cd // 12:dir
 URxvt.foreground:           [80]#f0f0f0
 URxvt.background:           [80]#222f28
 URxvt.colorIT:              [80]#8ec07c
