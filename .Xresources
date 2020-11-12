@@ -23,7 +23,7 @@ URxvt.visualBell:           true
 URxvt.saveLines:            2000
 
 !!=== after becoming out of cursol
-URxvt.fading:               80
+URxvt.fading:               20
 
 !! Font list and Spacing (xxx,yyy,zzz) (xft:font name-10 / xft:font name:pixelsize=10)
 URxvt.font:                 xft:monospace:pixelsize=16
@@ -32,29 +32,29 @@ URxvt.letterSpace:          -1
 
 !! Color Scheme and Opacity - gruvbox-dark https://github.com/morhetz/gruvbox
 URxvt.depth:                32
-URxvt.color0:               [90]#282828
-URxvt.color1:               [90]#cc241d
-URxvt.color2:               [90]#98971a
-URxvt.color3:               [90]#d79921
-URxvt.color4:               [90]#458588
-URxvt.color5:               [90]#b16286
-URxvt.color6:               [90]#689d6a
-URxvt.color7:               [90]#a89984
-URxvt.color8:               [90]#928374
-URxvt.color9:               [90]#fb4934
-URxvt.color10:              [90]#b8bb26
-URxvt.color11:              [90]#fabd2f
-URxvt.color12:              [90]#83a598
-URxvt.color13:              [90]#d3869b
-URxvt.color14:              [90]#8ec07c
-URxvt.color15:              [90]#ebdbb2
-URxvt.foreground:           [90]#ffffff
-URxvt.background:           [80]#000000
-URxvt.colorIT:              [90]#8ec07c
-URxvt.colorBD:              [90]#d5c4a1
-URxvt.colorUL:              [90]#83a598
-URxvt.scrollColor:          [90]#504945
-!URxvt.troughColor:          [90]#3C3836
+URxvt.color0:               [80]#282828
+URxvt.color1:               [80]#cc241d
+URxvt.color2:               [80]#4499cc
+URxvt.color3:               [80]#d79921
+URxvt.color4:               [80]#458588
+URxvt.color5:               [80]#b16286
+URxvt.color6:               [80]#689d6a
+URxvt.color7:               [80]#a89984
+URxvt.color8:               [80]#928374
+URxvt.color9:               [80]#fb4934
+URxvt.color10:              [80]#b8bb26
+URxvt.color11:              [80]#fabd2f
+URxvt.color12:              [80]#83a598
+URxvt.color13:              [80]#d3869b
+URxvt.color14:              [80]#8ec07c
+URxvt.color15:              [80]#ebdbb2
+URxvt.foreground:           [80]#f0f0f0
+URxvt.background:           [80]#224433
+URxvt.colorIT:              [80]#8ec07c
+URxvt.colorBD:              [80]#d5c4a1
+URxvt.colorUL:              [80]#83a598
+URxvt.scrollColor:          [80]#504945
+!URxvt.troughColor:          [80]#3C3836
 
 !!=== Perl off
 URxvt.perl-ext:
