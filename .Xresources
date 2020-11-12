@@ -1,7 +1,7 @@
 !!===== rxvt-unicode (urxvt)
 !!============================================
 
-URxvt.geometry:             96x32
+!URxvt.geometry:             [w]x[h]
 
 URxvt.scrollBar_thickness:  3
 URxvt.scrollBar_right:      true
