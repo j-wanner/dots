@@ -34,7 +34,7 @@ URxvt.letterSpace:          -1
 URxvt.depth:                32
 URxvt.color0:               [80]#282828
 URxvt.color1:               [80]#cc241d
-URxvt.color2:               [80]#4499cc
+URxvt.color2:               [80]#66bbee
 URxvt.color3:               [80]#d79921
 URxvt.color4:               [80]#458588
 URxvt.color5:               [80]#b16286
@@ -42,14 +42,14 @@ URxvt.color6:               [80]#689d6a
 URxvt.color7:               [80]#a89984
 URxvt.color8:               [80]#928374
 URxvt.color9:               [80]#fb4934
-URxvt.color10:              [80]#4499cc
-URxvt.color11:              [80]#335599
+URxvt.color10:              [80]#66bbee
+URxvt.color11:              [80]#4499cc
 URxvt.color12:              [80]#83a598
 URxvt.color13:              [80]#d3869b
 URxvt.color14:              [80]#8ec07c
 URxvt.color15:              [80]#ebdbb2
 URxvt.foreground:           [80]#f0f0f0
-URxvt.background:           [80]#242f2a
+URxvt.background:           [80]#222f28
 URxvt.colorIT:              [80]#8ec07c
 URxvt.colorBD:              [80]#d5c4a1
 URxvt.colorUL:              [80]#83a598
