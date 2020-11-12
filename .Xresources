@@ -44,12 +44,12 @@ URxvt.color8:               [80]#928374
 URxvt.color9:               [90]#66cc88
 URxvt.color10:              [90]#55bbdd
 URxvt.color11:              [80]#4499cc
-URxvt.color12:              [80]#7777cc
+URxvt.color12:              [80]#7788dd
 URxvt.color13:              [80]#d3869b
 !URxvt.color14:              [90]#aadd88
 !URxvt.color15:              [90]#aaccee
-URxvt.color14:              [90]#dddd66
-URxvt.color15:              [90]#dddd66
+URxvt.color14:              [90]#dddddd
+URxvt.color15:              [90]#dddddd
 ! 9:su user / 10:user / 14:su cd, sl / 15:cd // 12:dir
 URxvt.foreground:           [80]#f0f0f0
 URxvt.background:           [80]#222f28
